@@ -1,0 +1,21 @@
+body {
+    background-repeat: repeat-x;
+    margin: auto;
+    background-color: white;
+}
+
+#commentTitle {
+    margin-left: 500px;
+    margin-top: 40px;
+
+}
+
+#div1 {
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+#div2 {
+    margin-left: 200px;
+    margin-top: 40px;
+}

@@ -471,8 +471,8 @@ class DB_MYSQL
     //设置SQL语句，会自动把SQL语句里的#@__替换为$this->dbPrefix(在配置文件中为$cfg_dbprefix)
     function SetQuery($sql)
     {
-//        $prefix="#@__";
-//        $sql = str_replace($prefix,$this->dbPrefix,$sql);
+        $prefix = "#@__";
+        $sql = str_replace($prefix, $this->dbPrefix, $sql);
         $this->queryString = $sql;
     }
 
