@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文章列表</title>
+    <script src="http://xiaoqiao.com:9000/v2/js/JQuery-1.9.1/jquery-1.9.1.js"></script>
+    <link href="../css/index.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<p id="articleList">文章列表</p>
+
+<div id="articlesList"></div>
+</body>
+</html>
+<script type="text/javascript">
+    $(document).ready(function () {
+        //todo 安全验证
+        //todo 分页
+        var url = "http://www.xiaoqiao.com:9000/controller/articleController.php?type=getArticle";
+        $.get(url, function (res) {
+            var jsonRes = JSON.parse(res);
+            $.each(jsonRes, function (i, item) {
+                var items = JSON.stringify(item);
+                $("#articlesList").append(
+                        "<div>" + item.uid + "</div>" +
+                        "<div>" + item.title + "</div>" +
+                        "<div>" + item.content + "</div><span onclick='commentClick(" + items + ")'>评论</span><hr/>"
+                );
+
+            });
+        })
+    });
+
+    function commentClick(cur) {
+        alert(cur.uid);
+//        var content = $(cur).prev().text();
+//        var title = $(cur).prev().prev().text();
+//        var uid = $(cur).prev().prev().prev().text();
+//        location.href = "http://www.xiaoqiao.com:9000/v2/html/commentList.html?uid=" + uid;
+
+    }
+</script>

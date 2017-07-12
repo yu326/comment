@@ -11,6 +11,18 @@
         <param name="file" value="U:/comment/logs/test/test.log"/>
         <param name="maxBackupIndex" value="100"/>
     </appender>
+    <appender name="addComment" class="LoggerAppenderRollingFile">
+        <layout class="LoggerLayoutTTCC"/>
+        <param name="file" value="U:/comment/logs/addComment/addComment.log"/>
+        <param name="maxBackupIndex" value="100"/>
+    </appender>
+    <appender name="article" class="LoggerAppenderRollingFile">
+        <layout class="LoggerLayoutTTCC"/>
+        <param name="file" value="U:/comment/logs/article/article.log"/>
+        <param name="maxBackupIndex" value="100"/>
+    </appender>
+
+
     <logger name="suixin">
         <level value="debug"/>
         <appender_ref ref="suixin"/>
@@ -18,6 +30,14 @@
     <logger name="test">
         <level value="debug"/>
         <appender_ref ref="test"/>
+    </logger>
+    <logger name="addComment">
+        <level value="debug"/>
+        <appender_ref ref="addComment"/>
+    </logger>
+    <logger name="article">
+        <level value="debug"/>
+        <appender_ref ref="article"/>
     </logger>
 
 </configuration>

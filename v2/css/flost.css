@@ -1,0 +1,15 @@
+#a {
+    margin: 20px;
+    background: blue;
+}
+
+#b {
+    float: left;
+    background: black;
+}
+
+#c {
+    float: left;
+    margin-left: 100px;
+    background: yellow;
+}

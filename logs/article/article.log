@@ -1,0 +1,36 @@
+07/12/17 19:06:01,748 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/12/17 19:06:01,750 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/12/17 19:06:02,768 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'uid' => '1',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/12/17 19:06:25,307 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/12/17 19:06:25,310 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/12/17 19:06:26,333 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'uid' => '1',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)

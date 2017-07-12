@@ -4,18 +4,51 @@ body {
     background-color: white;
 }
 
-#commentTitle {
+/* -------------    index.html  css    ----------------- */
+#index #index_p {
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+#index #index_p1 {
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+#index #index_p2 {
+    margin-left: 200px;
+    margin-top: 40px;
+    font-size: larger;
+}
+
+/* -----------   addComment.html   css    ------------------- */
+#addComment {
     margin-left: 500px;
     margin-top: 40px;
-
+    font-size: 20px;
 }
 
-#div1 {
+#articleContent {
     margin-left: 200px;
-    margin-top: 40px;
 }
 
-#div2 {
-    margin-left: 200px;
+#commentForm {
+    margin-left: 200px
+}
+
+/* -------------   articleList.html  css   --------------------*/
+
+#articleList {
+    margin-left: 500px;
     margin-top: 40px;
+    font-size: 20px;
+}
+
+#articlesList {
+    margin-left: 200px;
+}
+
+#articleListContent a {
+    align: right;
+    padding-left: 200px;
 }

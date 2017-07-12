@@ -1,0 +1,60 @@
+<?php
+ function getArticle(){
+    echo "悲莫悲兮生别离，乐莫乐兮新相知";
+ }
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加评论</title>
+    <link href="../css/index.css" rel="stylesheet" type="text/css"/>
+    <script src="http://xiaoqiao.com:9000/v2/js/JQuery-1.9.1/jquery-1.9.1.js"></script>
+</head>
+<body>
+<p id="addComment">这是添加评论</p>
+
+<p id="articleContent"><?php getArticle(); ?></p>
+
+<form id="commentForm" action="http://www.xiaoqiao.com:9000/v2/html/index.html" method="post">
+    <table>
+        <tr style="display: none">
+            <td>用户:</td>
+            <td><input type="hidden" value="1" id="uid"></td>
+        </tr>
+        <tr>
+            <td>评论：</td>
+            <td><textarea cols="30" rows="5" id="commentContent"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="button" value="submit" id="submit"></td>
+            <td></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#submit").click(function () {
+            var uid = $("#uid").val();
+            var commentContent = $("#commentContent").val();
+            //todo 父级id
+            var pid = 0;
+            var aid = 1;
+            var url = "http://www.xiaoqiao.com:9000/controller/commentController.php";
+
+            $.post(url, {uid: uid, content: commentContent, pid: pid, aid: aid}, function (result) {
+                if (result == true) {
+                    alert("评论成功");
+                    location.href = "http://www.xiaoqiao.com:9000/v2/html/index.html";
+                } else {
+                    alert("评论失败")
+                }
+            });
+        });
+    });
+</script>

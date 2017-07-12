@@ -1,0 +1,8 @@
+07/12/17 15:43:49,574 [19692] INFO addComment - log : U:\comment\service\articleService.php -> getArticleData -> 18 : the getComment sql is :'SELECT uid,title,content FROM  articleWHERE is_show = 0ORDER BY created_on DESC'
+07/12/17 15:43:50,594 [19692] ERROR addComment - log : getArticleData sqlerror:SELECT uid,title,content FROM  articleWHERE is_show = 0ORDER BY created_on DESC - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 0ORDER BY created_on DESC' at line 1
+07/12/17 15:43:50,595 [19692] INFO addComment - log : getArticleData result is:array (
+)
+07/12/17 15:43:54,811 [19692] INFO addComment - log : U:\comment\service\articleService.php -> getArticleData -> 18 : the getComment sql is :'SELECT uid,title,content FROM  articleWHERE is_show = 0ORDER BY created_on DESC'
+07/12/17 15:43:55,834 [19692] ERROR addComment - log : getArticleData sqlerror:SELECT uid,title,content FROM  articleWHERE is_show = 0ORDER BY created_on DESC - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 0ORDER BY created_on DESC' at line 1
+07/12/17 15:43:55,834 [19692] INFO addComment - log : getArticleData result is:array (
+)

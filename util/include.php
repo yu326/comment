@@ -7,7 +7,10 @@
  */
 
 include_once("common.php");
+include_once("safeCheck.php");
 include_once("db_mysql.class.php");
+include_once("../service/commentService.php");
+include_once("../service/articleService.php");
 ini_set('include_path', realpath('../php_config'));
 include_once("config.php");
 include_once("database_conf.php");

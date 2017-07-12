@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>评论列表</title>
+
+
+    <script src="http://xiaoqiao.com:9000/v2/js/JQuery-1.9.1/jquery-1.9.1.js"></script>
+    <link href="../css/index.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload="showvalf()">
+
+</body>
+</html>
+
+<script>
+
+    function showvalf() {
+
+    }
+
+    var uid = GetQueryString("uid");
+    //    alert(uid);
+    if (uid != null) {
+        uid = GetQueryString("uid");
+    } else {
+        alert("错误");
+        location.href = "http://www.xiaoqiao.com:9000/v2/html/error.html"
+    }
+
+    var URL = "http://www.xiaoqiao.com:9000/controller/commentController.php?uid=" + uid + "&type=getArticle";
+    $.ajax({
+        type: "get",
+        contentType: "application/json",
+        dataType: "json",
+        url: URL,
+        success: function (data) {
+            console.log(data);
+        }//end sucess
+    });//end a
+
+
+    function GetQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null)return unescape(r[2]);
+        return null;
+    }
+</script>
