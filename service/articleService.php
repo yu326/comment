@@ -14,7 +14,7 @@ function getAllArticleData()
     global $logger, $dsql;
     $result = array();
     //todo  type 类型暂时不考虑
-    $sql = "SELECT uid,title,content FROM  " . DATABASE_ARTICLE . " WHERE is_show = " . COMMENT_ISSHOW . " ORDER BY created_on DESC";
+    $sql = "SELECT id,title,content FROM  " . DATABASE_ARTICLE . " WHERE is_show = " . COMMENT_ISSHOW . " ORDER BY created_on DESC";
     $logger->info("log : " . __FILE__ . " -> " . __FUNCTION__ . " -> " . __LINE__ . " : the getAllArticleData sql is :" . var_export($sql, true));
     $qr = $dsql->ExecQuery($sql);
     if (!$qr) {

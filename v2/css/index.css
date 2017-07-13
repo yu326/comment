@@ -1,27 +1,39 @@
-body {
-    background-repeat: repeat-x;
-    margin: auto;
-    background-color: white;
+body, html {
+    width: 100%;
+    height: 100%;
 }
 
 /* -------------    index.html  css    ----------------- */
-#index #index_p {
-    margin-left: 200px;
+
+#left {
+    width: 20%;
+    float: left;
+    height: 100%;
+    /*margin: 0 auto;*/
+}
+
+#right {
+    float: left;
+    width: 80%;
+    /*margin: 0 auto;*/
+    /*margin: 1px 2px ;  // 1 top  buttom     2 left right*/
+}
+
+#index_p {
     margin-top: 40px;
 }
 
-#index #index_p1 {
-    margin-left: 200px;
+#index_p1 {
     margin-top: 40px;
 }
 
-#index #index_p2 {
-    margin-left: 200px;
+#index_p2 {
     margin-top: 40px;
     font-size: larger;
 }
 
 /* -----------   addComment.html   css    ------------------- */
+
 #addComment {
     margin-left: 500px;
     margin-top: 40px;
@@ -33,22 +45,97 @@ body {
 }
 
 #commentForm {
-    margin-left: 200px
+    /*margin-left: 200px*/
 }
 
 /* -------------   articleList.html  css   --------------------*/
 
 #articleList {
-    margin-left: 500px;
+    margin-left: 300px;
     margin-top: 40px;
     font-size: 20px;
+    /*text-align: center;*/
 }
 
-#articlesList {
-    margin-left: 200px;
+/*#articleListContent a {*/
+/*align: right;*/
+/*padding-left: 200px;*/
+/*}*/
+
+#articlesList1 {
+    float: left;
+    width: 10%;
+    height: 100%;
+    text-align: center;
 }
 
-#articleListContent a {
-    align: right;
-    padding-left: 200px;
+#listRight {
+    float: left;
+    /*margin-left: 50px;*/
+    /*text-align: center;*/
+    width: 90%;
+    height: 100%;
+}
+
+#articlesList2 {
+    margin-bottom: 10px;
+    /*text-align: ;*/
+    margin-left: 150px;
+}
+
+#articlesList3 {
+    margin-left: 50px;
+}
+
+#commentSubmit {
+    margin-left: 500px;
+}
+
+/*   ------------------   commentList.html                     -----------------------------*/
+#articleAndComment {
+    margin-left: 300px;
+    margin: 40px 0px;
+    font-size: 20px;
+
+}
+
+#article1 {
+    float: left;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+}
+
+#article2 {
+    float: left;
+    /*margin-left: 50px;*/
+    /*text-align: center;*/
+    width: 90%;
+    height: 100%;
+    margin: 10px 0px;
+}
+
+#commentList1 {
+    float: left;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+}
+
+#commentList2 {
+    float: left;
+    /*margin-left: 50px;*/
+    /*text-align: center;*/
+    width: 90%;
+    height: 100%;
+    margin: 10px 0px;
+}
+
+#commentDesc {
+    margin: 20px 0;
+    display: none;
+}
+
+#addComment {
+    display: none;
 }

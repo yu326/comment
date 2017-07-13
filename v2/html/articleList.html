@@ -7,9 +7,14 @@
     <link href="../css/index.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<p id="articleList">文章列表</p>
+<div id="left"></div>
+<div id="right">
+    <p id="articleList">文章列表</p>
 
-<div id="articlesList"></div>
+    <div id="articlesList"></div>
+</div>
+
+
 </body>
 </html>
 <script type="text/javascript">
@@ -22,9 +27,9 @@
             $.each(jsonRes, function (i, item) {
                 var items = JSON.stringify(item);
                 $("#articlesList").append(
-                        "<div>" + item.uid + "</div>" +
-                        "<div>" + item.title + "</div>" +
-                        "<div>" + item.content + "</div><span onclick='commentClick(" + items + ")'>评论</span><hr/>"
+                        "<div id='articlesList1'>文章" + item.id + "</div>" +
+                        "<div id='listRight'><div id='articlesList2'>" + item.title + "</div>" +
+                        "<div id='articlesList3'>" + item.content + "</div><span onclick='commentClick(" + items + ")' id='commentSubmit'>评论</span></div>"
                 );
 
             });
@@ -32,11 +37,12 @@
     });
 
     function commentClick(cur) {
-        alert(cur.uid);
+        var uid = cur.id;
+//        alert(cur.uid);
 //        var content = $(cur).prev().text();
 //        var title = $(cur).prev().prev().text();
 //        var uid = $(cur).prev().prev().prev().text();
-//        location.href = "http://www.xiaoqiao.com:9000/v2/html/commentList.html?uid=" + uid;
+        location.href = "http://www.xiaoqiao.com:9000/v2/html/commentList.html?aid=" + uid;
 
     }
 </script>

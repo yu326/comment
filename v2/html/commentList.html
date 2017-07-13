@@ -8,36 +8,85 @@
     <script src="http://xiaoqiao.com:9000/v2/js/JQuery-1.9.1/jquery-1.9.1.js"></script>
     <link href="../css/index.css" rel="stylesheet" type="text/css"/>
 </head>
-<body onload="showvalf()">
+<body>
+<div id="left"></div>
+<div id="right">
+    <div id="articleAndComment">文章详情及评论</div>
+    <div id="oneArticle"></div>
+    <div id="commentDesc">评论</div>
+    <div id="commentList"></div>
 
+
+</div>
+<!--  分页   -->
+<div id="addComment">
+    <form id="commentForm" action="http://www.xiaoqiao.com:9000/v2/html/index.html" method="post">
+        <table>
+            <tr style="display: none">
+                <td>用户:</td>
+                <td><input type="hidden" value="1" id="uid"></td>
+            </tr>
+            <tr style="display: none">
+                <td>楼号:</td>
+                <td><input type="hidden" value="1" id="floor"></td>
+            </tr>
+            <tr style="display: none">
+                <td>子楼号:</td>
+                <td><input type="hidden" value="1" id="childFloor"></td>
+            </tr>
+            <tr>
+                <td>评论：</td>
+                <td><textarea cols="30" rows="5" id="commentContent"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="button" value="submit" id="submit"></td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+</div>
 </body>
 </html>
 
 <script>
-
-    function showvalf() {
-
-    }
-
-    var uid = GetQueryString("uid");
-    //    alert(uid);
-    if (uid != null) {
-        uid = GetQueryString("uid");
+    var aid = GetQueryString("aid");
+    if (aid != null) {
+        aid = GetQueryString("aid");
     } else {
         alert("错误");
         location.href = "http://www.xiaoqiao.com:9000/v2/html/error.html"
     }
 
-    var URL = "http://www.xiaoqiao.com:9000/controller/commentController.php?uid=" + uid + "&type=getArticle";
-    $.ajax({
-        type: "get",
-        contentType: "application/json",
-        dataType: "json",
-        url: URL,
-        success: function (data) {
-            console.log(data);
-        }//end sucess
-    });//end a
+    var URL = "http://www.xiaoqiao.com:9000/controller/articleController.php?uid=" + aid + "&type=getArticle";
+    $.get(URL, function (res) {
+//        alert(typeof  res);
+        var jsonRes = JSON.parse(res);
+//        alert(typeof  jsonRes);
+        $.each(jsonRes, function (i, item) {
+            var items = JSON.stringify(item);
+            $("#oneArticle").append(
+                    "<div id='article1'>文章" + item.uid + "</div>" +
+                    "<div id='article2'><div>" + item.title + "</div>" +
+                    "<div>" + item.content + "</div></div>"
+            );
+        });
+    })
+
+    URL = "http://www.xiaoqiao.com:9000/controller/commentController.php?aid=" + aid + "&type=getCommentData";
+    $.get(URL, function (res) {
+//        alert(typeof  res);
+        var jsonRes = JSON.parse(res);
+//        alert(typeof  jsonRes);
+        $("#commentDesc").css('display', 'block');
+        $.each(jsonRes, function (i, item) {
+            var items = JSON.stringify(item);
+            $("#commentList").append(
+                    "<div id='commentList1'>用户" + item.uid + "</div>" +
+                    "<div id='commentList2'><div>" + item.cid + "楼:     " + item.content + "</div>" +
+                    "<div>" + getLocalTime(item.created_on) + "</div><span onclick='commentClick(" + items + ")' id='commentSubmit'>评论</span></div>"
+            );
+        });
+    })
 
 
     function GetQueryString(name) {
@@ -46,4 +95,41 @@
         if (r != null)return unescape(r[2]);
         return null;
     }
+
+    function getLocalTime(nS) {
+        return new Date(parseInt(nS) * 1000).toLocaleString().replace(/:\d{1,2}$/, ' ');
+    }
+
+    function commentClick(data) {
+        if ($("#addComment").css('display') == "none") {
+            $("#addComment").css('display', 'block');
+        } else {
+            $("#addComment").css('display', 'none');
+        }
+        var uid = data.uid;
+        var childFloor = data.childFloor;
+        var floor = data.floor;
+
+        $("#floor").val(floor);
+        $("#childFloor").val(childFloor);
+        $("#uid").val(uid);
+    }
+
+    $("#submit").click(function () {
+        var uid = $("#uid").val();
+        var commentContent = $("#commentContent").val();
+        //todo 父级id
+        var pid = $("#floor").val();
+        var aid = aid;
+        var url = "http://www.xiaoqiao.com:9000/controller/commentController.php";
+
+        $.post(url, {uid: uid, content: commentContent, pid: pid, aid: aid}, function (result) {
+            if (result == true) {
+                alert("评论成功");
+                location.href = "http://www.xiaoqiao.com:9000/v2/html/index.html";
+            } else {
+                alert("评论失败")
+            }
+        });
+    })
 </script>

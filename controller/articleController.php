@@ -14,6 +14,7 @@ $dsql = new DB_MYSQL(DATABASE_SERVER, DATABASE_USERNAME, DATABASE_PASSWORD, DATA
 
 
 if (!empty($_GET)) {
+    $logger->info("the getData is:" . var_export($_GET, true));
     $type = $_GET['type'];
     switch ($type) {
         case "getArticle";

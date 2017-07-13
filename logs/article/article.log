@@ -1,36 +1,2277 @@
-07/12/17 19:06:01,748 [19692] INFO article - herearray (
+07/13/17 11:09:19,091 [19692] INFO article - the getData is:array (
+  'uid' => '1',
   'type' => 'getArticle',
 )
-07/12/17 19:06:01,750 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
-07/12/17 19:06:02,768 [19692] INFO article - log : getArticleData result is:array (
+07/13/17 11:09:19,094 [19692] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:09:19,094 [19692] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 11:09:20,129 [19692] INFO article - log : getArticleData result is:array (
   0 => 
   array (
     'uid' => '1',
     'title' => '悲喜兮',
     'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
   ),
-  1 => 
-  array (
-    'uid' => '1',
-    'title' => '相忘兮',
-    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
-  ),
 )
-07/12/17 19:06:25,307 [19692] INFO article - herearray (
+07/13/17 11:09:46,132 [19692] INFO article - the getData is:array (
+  'uid' => '1',
   'type' => 'getArticle',
 )
-07/12/17 19:06:25,310 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
-07/12/17 19:06:26,333 [19692] INFO article - log : getArticleData result is:array (
+07/13/17 11:09:46,134 [19692] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:09:46,135 [19692] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 11:09:47,171 [19692] INFO article - log : getArticleData result is:array (
   0 => 
   array (
     'uid' => '1',
     'title' => '悲喜兮',
     'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
   ),
+)
+07/13/17 11:10:35,518 [19692] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:10:35,519 [19692] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:10:35,520 [19692] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 11:10:36,560 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 11:14:19,794 [19692] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:14:19,797 [19692] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:14:19,797 [19692] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 11:14:20,840 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 11:14:57,513 [19692] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:14:57,514 [19692] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:14:57,515 [19692] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 11:14:58,524 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 11:17:57,953 [19692] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:17:57,956 [19692] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:17:57,956 [19692] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 11:17:58,972 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 11:19:51,482 [19692] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:19:51,485 [19692] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:19:51,486 [19692] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 11:19:52,508 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 11:20:19,725 [19692] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:20:19,728 [19692] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:20:19,729 [19692] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 11:20:20,748 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 11:20:44,470 [19692] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:20:44,472 [19692] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:20:44,472 [19692] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 11:20:45,491 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 11:21:17,095 [19692] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:21:17,097 [19692] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:21:17,097 [19692] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 11:21:18,135 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 11:32:36,934 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 11:32:36,937 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 11:32:36,937 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 11:32:37,968 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
   1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 11:32:43,121 [19692] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:32:43,123 [19692] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:32:43,123 [19692] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 11:32:44,134 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 11:42:39,888 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 11:42:39,891 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 11:42:39,892 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 11:42:40,907 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 11:43:41,024 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 11:43:41,027 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 11:43:41,028 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 11:43:42,041 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 11:44:28,918 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 11:44:28,920 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 11:44:28,921 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 11:44:29,932 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 11:46:10,175 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 11:46:10,178 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 11:46:10,178 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 11:46:11,200 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 11:48:02,675 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 11:48:02,677 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 11:48:02,677 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 11:48:03,685 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 11:48:43,745 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 11:48:43,747 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 11:48:43,749 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 11:48:44,779 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 11:49:45,620 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 11:49:45,622 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 11:49:45,623 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 11:49:46,630 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 11:55:27,761 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 11:55:27,764 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 11:55:27,764 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 11:55:28,782 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 11:56:28,541 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 11:56:28,543 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 11:56:28,543 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 11:56:29,570 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 11:57:30,134 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 11:57:30,136 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 11:57:30,136 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 11:57:31,156 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 11:57:43,597 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 11:57:43,600 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 11:57:43,601 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 11:57:44,625 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 11:57:46,349 [19692] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:57:46,352 [19692] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:57:46,352 [19692] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 11:57:47,364 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 11:57:48,019 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 11:57:48,022 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 11:57:48,022 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 11:57:49,039 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 11:57:50,364 [19692] INFO article - the getData is:array (
+  'uid' => '2',
+  'type' => 'getArticle',
+)
+07/13/17 11:57:50,366 [19692] INFO article - herearray (
+  'uid' => '2',
+  'type' => 'getArticle',
+)
+07/13/17 11:57:50,366 [19692] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 2'
+07/13/17 11:57:51,393 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
   array (
     'uid' => '1',
     'title' => '相忘兮',
     'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 11:57:56,048 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 11:57:56,051 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 11:57:56,052 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 11:57:57,061 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 11:57:58,717 [19692] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:57:58,719 [19692] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 11:57:58,720 [19692] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 11:57:59,736 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 11:58:01,644 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 11:58:01,647 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 11:58:01,647 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 11:58:02,654 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 11:58:26,686 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 11:58:26,688 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 11:58:26,688 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 11:58:27,704 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 11:58:41,026 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 11:58:41,028 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 11:58:41,028 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 11:58:42,046 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:27:52,639 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:27:52,641 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:27:52,641 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:27:53,664 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:28:34,786 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:28:34,789 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:28:34,789 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:28:35,820 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:28:48,795 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:28:48,797 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:28:48,797 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:28:49,816 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:28:56,318 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:28:56,320 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:28:56,320 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:28:57,340 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:31:17,384 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:31:17,387 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:31:17,387 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:31:18,399 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:32:11,274 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:32:11,281 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:32:11,282 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:32:12,313 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:32:27,261 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:32:27,263 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:32:27,263 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:32:28,277 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:35:43,161 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:35:43,164 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:35:43,165 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:35:44,192 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:36:17,620 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:36:17,621 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:36:17,622 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:36:18,653 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:37:03,136 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:37:03,138 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:37:03,138 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:37:04,156 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:37:13,212 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:37:13,214 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:37:13,214 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:37:14,245 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:37:34,391 [19692] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 12:37:34,393 [19692] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 12:37:34,394 [19692] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 12:37:35,427 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 12:37:36,358 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:37:36,361 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:37:36,362 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:37:37,381 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:37:50,632 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:37:50,636 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:37:50,636 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:37:51,656 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:37:58,383 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:37:58,387 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:37:58,387 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:37:59,405 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:38:15,027 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:38:15,029 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:38:15,029 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:38:16,043 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:39:12,570 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:39:12,572 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:39:12,572 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:39:13,592 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:40:01,299 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:40:01,303 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:40:01,303 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:40:02,323 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:40:55,860 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:40:55,862 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:40:55,862 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:40:56,877 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:42:55,942 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:42:55,944 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:42:55,944 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:42:56,966 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:43:25,014 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:43:25,017 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:43:25,017 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:43:26,040 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:43:33,288 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:43:33,289 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:43:33,289 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:43:34,308 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:44:47,592 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:44:47,595 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:44:47,595 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:44:48,622 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:45:10,734 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:45:10,736 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:45:10,736 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:45:11,765 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:45:23,135 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:45:23,137 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:45:23,137 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:45:24,151 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:46:12,171 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:46:12,173 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:46:12,174 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:46:13,203 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:46:27,700 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:46:27,702 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:46:27,703 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:46:28,718 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:46:46,261 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:46:46,263 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:46:46,263 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:46:47,286 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:47:51,168 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:47:51,171 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:47:51,172 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:47:52,194 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:48:05,203 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:48:05,206 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:48:05,206 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:48:06,230 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:48:14,543 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:48:14,545 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:48:14,547 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:48:15,566 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:48:22,538 [19692] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 12:48:22,539 [19692] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 12:48:22,540 [19692] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 12:48:23,557 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 12:48:32,932 [19692] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 12:48:32,935 [19692] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 12:48:32,935 [19692] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 12:48:33,948 [19692] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:06:40,087 [14836] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 15:06:40,095 [14836] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 15:06:40,096 [14836] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 15:06:40,119 [14836] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 15:07:11,128 [20288] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 15:07:11,132 [20288] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 15:07:11,132 [20288] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 15:07:12,163 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 15:07:23,412 [20288] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 15:07:23,414 [20288] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 15:07:23,414 [20288] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 15:07:24,424 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 15:07:39,897 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:07:39,900 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:07:39,900 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:07:40,931 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:08:24,680 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:08:24,684 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:08:24,684 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:08:25,703 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:08:41,368 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:08:41,370 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:08:41,371 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:08:42,387 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:09:43,491 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:09:43,493 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:09:43,494 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:09:44,508 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:18:44,108 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:18:44,111 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:18:44,111 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:18:45,137 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:20:30,873 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:20:30,876 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:20:30,876 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:20:31,896 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:21:09,607 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:21:09,609 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:21:09,609 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:21:10,627 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:21:59,118 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:21:59,121 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:21:59,121 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:22:00,136 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:23:14,726 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:23:14,728 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:23:14,728 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:23:15,736 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:23:42,802 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:23:42,807 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:23:42,808 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:23:43,819 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:24:05,793 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:24:05,795 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:24:05,795 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:24:06,804 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:24:42,823 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:24:42,825 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:24:42,825 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:24:43,845 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:27:35,408 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:27:35,410 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:27:35,410 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:27:36,430 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:27:52,789 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:27:52,791 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:27:52,792 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:27:53,823 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:30:29,586 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:30:29,589 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:30:29,589 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:30:30,634 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:33:21,305 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:33:21,308 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:33:21,308 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:33:22,332 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:33:46,711 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:33:46,713 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:33:46,714 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:33:47,741 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:34:08,838 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:34:08,840 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:34:08,840 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:34:09,861 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:34:49,572 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:34:49,577 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:34:49,577 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:34:50,619 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:36:05,125 [20288] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 15:36:05,128 [20288] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 15:36:05,128 [20288] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 15:36:06,141 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 15:36:07,545 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:36:07,547 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:36:07,547 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:36:08,567 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:36:54,362 [20288] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 15:36:54,363 [20288] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 15:36:54,364 [20288] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 15:36:55,371 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 15:36:56,655 [20288] INFO article - the getData is:array (
+  'uid' => '2',
+  'type' => 'getArticle',
+)
+07/13/17 15:36:56,656 [20288] INFO article - herearray (
+  'uid' => '2',
+  'type' => 'getArticle',
+)
+07/13/17 15:36:56,657 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 2'
+07/13/17 15:36:57,679 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 15:37:05,061 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:37:05,063 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:37:05,064 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:37:06,080 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:38:47,498 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:38:47,500 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:38:47,500 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:38:48,532 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:39:26,477 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:39:26,479 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:39:26,480 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:39:27,499 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:39:38,855 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:39:38,858 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:39:38,858 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:39:39,889 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:39:50,078 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:39:50,080 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:39:50,081 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:39:51,103 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 15:56:09,144 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:56:09,146 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 15:56:09,146 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 15:56:10,157 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:05:01,964 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:05:01,969 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:05:01,969 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:05:02,994 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:08:51,467 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:08:51,470 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:08:51,470 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:08:52,482 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:11:33,561 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:11:33,563 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:11:33,563 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:11:34,588 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:12:03,588 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:12:03,590 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:12:03,590 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:12:04,599 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:12:45,204 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:12:45,206 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:12:45,206 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:12:46,232 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:14:35,087 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:14:35,090 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:14:35,091 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:14:36,108 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:16:05,503 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:16:05,505 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:16:05,505 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:16:06,546 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:16:40,423 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:16:40,425 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:16:40,426 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:16:41,438 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:19:22,284 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:19:22,286 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:19:22,287 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:19:23,323 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:20:49,164 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:20:49,166 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:20:49,167 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:20:50,186 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:25:03,859 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:25:03,861 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:25:03,861 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:25:04,909 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:26:14,962 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:26:14,964 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:26:14,964 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:26:15,993 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:26:16,583 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:26:16,585 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:26:16,585 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:26:17,610 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:26:23,516 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:26:23,520 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:26:23,520 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:26:24,554 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:26:58,370 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:26:58,372 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:26:58,372 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:26:59,390 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:27:29,032 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:27:29,035 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:27:29,035 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:27:30,066 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:30:37,632 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:30:37,633 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:30:37,634 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:30:38,662 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:31:33,716 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:31:33,718 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:31:33,718 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:31:34,738 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:31:52,444 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:31:52,446 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:31:52,446 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:31:53,482 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:32:10,422 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:32:10,423 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:32:10,423 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:32:11,444 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:32:58,027 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:32:58,031 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:32:58,031 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:32:59,046 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:33:13,726 [20288] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 16:33:13,728 [20288] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 16:33:13,729 [20288] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 16:33:14,742 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 16:33:40,868 [20288] INFO article - the getData is:array (
+  'type' => 'getArticle',
+)
+07/13/17 16:33:40,871 [20288] INFO article - herearray (
+  'type' => 'getArticle',
+)
+07/13/17 16:33:40,871 [20288] INFO article - log : U:\comment\service\articleService.php -> getAllArticleData -> 18 : the getAllArticleData sql is :'SELECT id,title,content FROM  article WHERE is_show = 0 ORDER BY created_on DESC'
+07/13/17 16:33:41,891 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'id' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+  1 => 
+  array (
+    'id' => '2',
+    'title' => '相忘兮',
+    'content' => '相呴以湿，相濡以沫，不如相忘于江湖',
+  ),
+)
+07/13/17 16:33:43,920 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:33:43,922 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:33:43,922 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:33:44,931 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
+  ),
+)
+07/13/17 16:33:53,168 [20288] INFO article - the getData is:array (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:33:53,171 [20288] INFO article - herearray (
+  'uid' => '1',
+  'type' => 'getArticle',
+)
+07/13/17 16:33:53,171 [20288] INFO article - log : U:\comment\service\articleService.php -> getOneArticle -> 39 : the getOneArticle sql is :'SELECT uid,title,content FROM  article WHERE is_show = 0 AND id = 1'
+07/13/17 16:33:54,190 [20288] INFO article - log : getArticleData result is:array (
+  0 => 
+  array (
+    'uid' => '1',
+    'title' => '悲喜兮',
+    'content' => '悲莫悲兮生别离，乐莫乐兮新相知',
   ),
 )

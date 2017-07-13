@@ -39,11 +39,12 @@ if (!empty($_GET)) {
     $type = $_GET['type'];
     switch ($type) {
         case  "getCommentData":
-            getCommentData($_GET);
+            $res = getCommentData($_GET);
             break;
         default;
             break;
     }
+    echo json_encode($res);
 }
 
 
@@ -52,8 +53,9 @@ function getCommentData()
     global $logger;
     $aid = $_GET['aid'];
     $logger->info("the aid is :" . var_export($aid, true));
-    $commentData = getCommentData($_GET);
+    $commentData = getCommentData4db($_GET);
     $logger->info("the commentData is:" . var_export($commentData, true));
+    return $commentData;
 }
 
 

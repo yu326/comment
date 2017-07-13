@@ -29,20 +29,20 @@ function addComment($data)
 }
 
 
-function getCommentData($data)
+function getCommentData4db($data)
 {
     global $logger, $dsql;
     $result = array();
-    $sql = "SELECT uid,content FROM  " . DATABASE_COMMENT . "WHERE is_show = " . COMMENT_ISSHOW . " AND aid =" . $data['aid'] . "AND pid = 0";
+    $sql = "SELECT cid,uid,content,floor,childFloor,created_on FROM  " . DATABASE_COMMENT . " WHERE is_show = " . COMMENT_ISSHOW . " AND aid = " . $data['aid'] . " AND pid = 0 limit 3";
     $logger->info("log : " . __FILE__ . " -> " . __FUNCTION__ . " -> " . __LINE__ . " : the getComment sql is :" . var_export($sql, true));
     $qr = $dsql->ExecQuery($sql);
     if (!$qr) {
         $logger->error("log : " . __FUNCTION__ . " sqlerror:" . $sql . " - " . $dsql->GetError());
     } else {
-        while ($dsql->GetArray($qr)) {
-            $result[] = $dsql->GetArray($qr);
+        while ($r = $dsql->GetArray($qr)) {
+            $result[] = $r;
         }
     }
     $logger->info("log : getComment data is:" . var_export($result, true));
-
+    return $result;
 }

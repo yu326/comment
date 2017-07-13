@@ -1,8 +1,1168 @@
-07/12/17 15:43:49,574 [19692] INFO addComment - log : U:\comment\service\articleService.php -> getArticleData -> 18 : the getComment sql is :'SELECT uid,title,content FROM  articleWHERE is_show = 0ORDER BY created_on DESC'
-07/12/17 15:43:50,594 [19692] ERROR addComment - log : getArticleData sqlerror:SELECT uid,title,content FROM  articleWHERE is_show = 0ORDER BY created_on DESC - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 0ORDER BY created_on DESC' at line 1
-07/12/17 15:43:50,595 [19692] INFO addComment - log : getArticleData result is:array (
+07/13/17 16:05:01,978 [20288] INFO addComment - the aid is :'1'
+07/13/17 16:05:01,981 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = 1 AND pid = 0 limit 3'
+07/13/17 16:05:03,008 [20288] INFO addComment - log : getComment data is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
 )
-07/12/17 15:43:54,811 [19692] INFO addComment - log : U:\comment\service\articleService.php -> getArticleData -> 18 : the getComment sql is :'SELECT uid,title,content FROM  articleWHERE is_show = 0ORDER BY created_on DESC'
-07/12/17 15:43:55,834 [19692] ERROR addComment - log : getArticleData sqlerror:SELECT uid,title,content FROM  articleWHERE is_show = 0ORDER BY created_on DESC - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 0ORDER BY created_on DESC' at line 1
-07/12/17 15:43:55,834 [19692] INFO addComment - log : getArticleData result is:array (
+07/13/17 16:05:03,009 [20288] INFO addComment - the commentData is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:08:51,474 [20288] INFO addComment - the aid is :'1'
+07/13/17 16:08:51,478 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = 1 AND pid = 0 limit 3'
+07/13/17 16:08:52,512 [20288] INFO addComment - log : getComment data is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:08:52,513 [20288] INFO addComment - the commentData is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:11:33,565 [20288] INFO addComment - the aid is :'1'
+07/13/17 16:11:33,567 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = 1 AND pid = 0 limit 3'
+07/13/17 16:11:34,602 [20288] INFO addComment - log : getComment data is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:11:34,603 [20288] INFO addComment - the commentData is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:12:03,604 [20288] INFO addComment - the aid is :'1'
+07/13/17 16:12:03,606 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = 1 AND pid = 0 limit 3'
+07/13/17 16:12:04,623 [20288] INFO addComment - log : getComment data is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:12:04,623 [20288] INFO addComment - the commentData is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:12:45,204 [20288] INFO addComment - the aid is :'1'
+07/13/17 16:12:45,206 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = 1 AND pid = 0 limit 3'
+07/13/17 16:12:46,228 [20288] INFO addComment - log : getComment data is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:12:46,228 [20288] INFO addComment - the commentData is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:14:35,094 [20288] INFO addComment - the aid is :'1'
+07/13/17 16:14:35,097 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = 1 AND pid = 0 limit 3'
+07/13/17 16:14:36,118 [20288] INFO addComment - log : getComment data is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:14:36,119 [20288] INFO addComment - the commentData is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:16:05,518 [20288] INFO addComment - the aid is :'1'
+07/13/17 16:16:05,522 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = 1 AND pid = 0 limit 3'
+07/13/17 16:16:06,561 [20288] INFO addComment - log : getComment data is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:16:06,561 [20288] INFO addComment - the commentData is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:16:40,446 [20288] INFO addComment - the aid is :'1'
+07/13/17 16:16:40,448 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = 1 AND pid = 0 limit 3'
+07/13/17 16:16:41,456 [20288] INFO addComment - log : getComment data is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:16:41,457 [20288] INFO addComment - the commentData is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:19:22,287 [20288] INFO addComment - the aid is :'1'
+07/13/17 16:19:22,290 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = 1 AND pid = 0 limit 3'
+07/13/17 16:19:23,329 [20288] INFO addComment - log : getComment data is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:19:23,330 [20288] INFO addComment - the commentData is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:20:49,184 [20288] INFO addComment - the aid is :'1'
+07/13/17 16:20:49,187 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = 1 AND pid = 0 limit 3'
+07/13/17 16:20:50,208 [20288] INFO addComment - log : getComment data is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:20:50,209 [20288] INFO addComment - the commentData is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:25:03,867 [20288] INFO addComment - the aid is :'[object HTMLInputElement]'
+07/13/17 16:25:03,871 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = [object HTMLInputElement] AND pid = 0 limit 3'
+07/13/17 16:25:04,917 [20288] ERROR addComment - log : getCommentData4db sqlerror:SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = [object HTMLInputElement] AND pid = 0 limit 3 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object HTMLInputElement] AND pid = 0 limit 3' at line 1
+07/13/17 16:25:04,917 [20288] INFO addComment - log : getComment data is:array (
+)
+07/13/17 16:25:04,918 [20288] INFO addComment - the commentData is:array (
+)
+07/13/17 16:26:14,971 [20288] INFO addComment - the aid is :'[object HTMLInputElement]'
+07/13/17 16:26:14,973 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = [object HTMLInputElement] AND pid = 0 limit 3'
+07/13/17 16:26:16,008 [20288] ERROR addComment - log : getCommentData4db sqlerror:SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = [object HTMLInputElement] AND pid = 0 limit 3 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object HTMLInputElement] AND pid = 0 limit 3' at line 1
+07/13/17 16:26:16,009 [20288] INFO addComment - log : getComment data is:array (
+)
+07/13/17 16:26:16,010 [20288] INFO addComment - the commentData is:array (
+)
+07/13/17 16:26:16,590 [20288] INFO addComment - the aid is :'[object HTMLInputElement]'
+07/13/17 16:26:16,592 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = [object HTMLInputElement] AND pid = 0 limit 3'
+07/13/17 16:26:17,627 [20288] ERROR addComment - log : getCommentData4db sqlerror:SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = [object HTMLInputElement] AND pid = 0 limit 3 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object HTMLInputElement] AND pid = 0 limit 3' at line 1
+07/13/17 16:26:17,628 [20288] INFO addComment - log : getComment data is:array (
+)
+07/13/17 16:26:17,628 [20288] INFO addComment - the commentData is:array (
+)
+07/13/17 16:26:23,525 [20288] INFO addComment - the aid is :'[object HTMLInputElement]'
+07/13/17 16:26:23,527 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = [object HTMLInputElement] AND pid = 0 limit 3'
+07/13/17 16:26:24,564 [20288] ERROR addComment - log : getCommentData4db sqlerror:SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = [object HTMLInputElement] AND pid = 0 limit 3 - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[object HTMLInputElement] AND pid = 0 limit 3' at line 1
+07/13/17 16:26:24,565 [20288] INFO addComment - log : getComment data is:array (
+)
+07/13/17 16:26:24,565 [20288] INFO addComment - the commentData is:array (
+)
+07/13/17 16:26:58,389 [20288] INFO addComment - the aid is :'1'
+07/13/17 16:26:58,392 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = 1 AND pid = 0 limit 3'
+07/13/17 16:26:59,407 [20288] INFO addComment - log : getComment data is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:26:59,408 [20288] INFO addComment - the commentData is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:27:29,033 [20288] INFO addComment - the aid is :'1'
+07/13/17 16:27:29,036 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = 1 AND pid = 0 limit 3'
+07/13/17 16:27:30,067 [20288] INFO addComment - log : getComment data is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:27:30,068 [20288] INFO addComment - the commentData is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:30:37,639 [20288] INFO addComment - the aid is :'1'
+07/13/17 16:30:37,641 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = 1 AND pid = 0 limit 3'
+07/13/17 16:30:38,661 [20288] INFO addComment - log : getComment data is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:30:38,661 [20288] INFO addComment - the commentData is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:31:33,739 [20288] INFO addComment - the aid is :'1'
+07/13/17 16:31:33,743 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = 1 AND pid = 0 limit 3'
+07/13/17 16:31:34,768 [20288] INFO addComment - log : getComment data is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:31:34,769 [20288] INFO addComment - the commentData is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:31:52,451 [20288] INFO addComment - the aid is :'1'
+07/13/17 16:31:52,453 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = 1 AND pid = 0 limit 3'
+07/13/17 16:31:53,481 [20288] INFO addComment - log : getComment data is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:31:53,481 [20288] INFO addComment - the commentData is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:32:10,437 [20288] INFO addComment - the aid is :'1'
+07/13/17 16:32:10,440 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = 1 AND pid = 0 limit 3'
+07/13/17 16:32:11,460 [20288] INFO addComment - log : getComment data is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:32:11,461 [20288] INFO addComment - the commentData is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:32:58,026 [20288] INFO addComment - the aid is :'1'
+07/13/17 16:32:58,029 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = 1 AND pid = 0 limit 3'
+07/13/17 16:32:59,045 [20288] INFO addComment - log : getComment data is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:32:59,046 [20288] INFO addComment - the commentData is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:33:43,945 [20288] INFO addComment - the aid is :'1'
+07/13/17 16:33:43,946 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = 1 AND pid = 0 limit 3'
+07/13/17 16:33:44,970 [20288] INFO addComment - log : getComment data is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:33:44,971 [20288] INFO addComment - the commentData is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:33:53,173 [20288] INFO addComment - the aid is :'1'
+07/13/17 16:33:53,175 [20288] INFO addComment - log : U:\comment\service\commentService.php -> getCommentData4db -> 37 : the getComment sql is :'SELECT cid,uid,content,floor,childFloor,created_on FROM  comment WHERE is_show = 0 AND aid = 1 AND pid = 0 limit 3'
+07/13/17 16:33:54,197 [20288] INFO addComment - log : getComment data is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
+)
+07/13/17 16:33:54,198 [20288] INFO addComment - the commentData is:array (
+  0 => 
+  array (
+    'cid' => '1',
+    'uid' => '1',
+    'content' => '呵呵哒',
+    'floor' => '1',
+    'childFloor' => '0',
+    'created_on' => '123123123',
+  ),
+  1 => 
+  array (
+    'cid' => '2',
+    'uid' => '1',
+    'content' => '浩荡离愁白日斜，吟鞭东指即天涯',
+    'floor' => '2',
+    'childFloor' => '0',
+    'created_on' => '1499830666',
+  ),
+  2 => 
+  array (
+    'cid' => '3',
+    'uid' => '1',
+    'content' => '枯藤老树昏鸦，小桥流水人家',
+    'floor' => '3',
+    'childFloor' => '0',
+    'created_on' => '1499830826',
+  ),
 )
